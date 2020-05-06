@@ -1,0 +1,164 @@
+header img {
+    height: 80px;
+    position: relative;
+}
+header {
+    background-color: #B4EB63;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1pt solid #fcf1b7;
+    z-index:1;
+}
+header * {
+    display: inline-block;
+
+}
+header li {
+    margin: 20px;
+
+}
+header li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body {
+    margin-top: 50px;
+    padding: 25px;
+    height: 125vh;
+}
+
+body {
+  background-image: url("images/bgphoto.jpg");
+  background-size: cover;
+}
+
+div {
+  display: flow-root;
+  margin: 0px;
+  padding: 5px;
+  width: 98%;
+  border-style: solid;
+  border-color: #fcf1b7;
+}
+
+/*.row-full{
+width: 100vw;
+position: relative;
+margin-left: -50vw;
+left: 50%;
+} */
+
+.evengroup {
+  /*background-color: #ffff66; */
+  background-color: #ff8830;
+  opacity: 95%;
+}
+
+.oddgroup {
+  /*background-color: #ffae95;*/
+  background-color: #dd1923;
+  opacity: 95%;
+}
+
+#home {
+  clear: both
+}
+
+.intro {
+    font-size: 20px;
+    margin-left: 20px;
+    shape-outside: circle(50%);
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.firstimage {
+  float: left;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+.story {
+  margin: 10px;
+  shape-outside: circle(50%);
+  font-size: 20px;
+
+}
+
+
+h1 {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  font-size: 50px;
+}
+
+.announcement {
+  text-align: center;
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+  padding: 0px 200px 100px 200px;
+}
+
+/* .wristbands {
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin: 0px;*/
+
+}
+
+.groupthree {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.collage {
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin:10px 10px 10px 30px
+
+}
+
+.collage2 {
+  height: 300px;
+  width: 300px;
+
+  float: left;
+  margin: 10px;
+}
+
+.collage3 {
+  height: 300px;
+  width: 300px;
+
+  float: left;
+  margin: 10px;
+}
+
+.collage4 {
+  height: 300px;
+  width: 300px;
+
+  float: left;
+  margin: 10px;
+}
