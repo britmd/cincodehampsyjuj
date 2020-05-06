@@ -1,15 +1,8 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="/node_modules/bxslider/dist/jquery.bxslider.min.js"></script>
 
-
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
+<script>
+  $(document).ready(function(){
+    $('.bxslider').bxSlider();
+});
+</script>

@@ -2,9 +2,19 @@
 <html>
   <head>
       <title> Cinco De Hamps y Juj </title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link rel="stylesheet" href="style.css">
-      <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+      <!-- slider stuff -->
+        <link rel="stylesheet" href="/node_modules/bxslider/dist/jquery.bxslider.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="/node_modules/bxslider/dist/jquery.bxslider.min.js"></script>
+      <script>
+        $(document).ready(function(){
+          $('.bxslider').bxSlider();
+      });
+      </script>
+
   </head>
   <body>
     <header>
@@ -18,9 +28,9 @@
         </ul>
       </nav>
     </header>
-
     <div id="home" class="evengroup row-full">
-    <!--  <img class="collage" src="images/collage.png" alt="collage"> -->
+      <br>
+      <img class="image2" src="images/home_image2.png" alt="24">
       <h2>The Annual Festival of Cinco de Hamps y Juj</h2>
 
       <p class="intro"> Due to unforseen circumstances, the festival has been postponed until November. We appreciate everyone's patience during this time. We will keep everyone updated on the status of this festival and release scheduled events the closer we get to the event. Stay tune and check often. <br><br>Stay safe, stay healthy, and when you're sipping on that daq - think of us.</p>
@@ -37,7 +47,6 @@
       <h2> 2020 Schedule </h2>
       <h1> ANNOUNCEMENT </h1>
       <p class="announcement"> After much communication with Mayor Cantrell, we are sad to announce that due to Covid-19 social distancing measures, New Orleans' most spectacular spring festival, Cinco de Hamps y Juj, will not be open to the public for its seventh annual celebration.</p>
-      <!-- <img class= "wristbands" src="images/updatedlogo.png" alt="juj and hamps  wristbands"> -->
       <p class="groupthree"> This year's schedule is not open to the public. We highly encourage our usual attendees to celebrate at home the best way they know how - going on a bender. <br> <br> Join us in reflecting on the great adventures of previous years </p>
       <img class="collage" src="images/collage.png" alt="collage">
       <img class="collage2" src="images/collage2.png" alt="another collage">
@@ -45,10 +54,26 @@
       <img class="collage4" src="images/collage4.png" alt="another another another collage">
 
     </div>
-    <div id="testimonials" class="oddgroup row-full">
+    <div id="testimonials" class="oddgroup row-full slider">
       <h2> Testimonials</h2>
+        <div class="bxslider">
+            <p class="slide"> "Cinco de Hamps y Juj is seriously the best time of my life." </p>
+            <p class="slide">"I love cinco de Hamps y Juj because we our surrounded by many different ppl who love these wonderful ladies plus we get to celebrate for a week doing diff activities every single year. They deserve the world and more"</p>
+            <p class="slide"> "Cinco de hamps y juj is literally my favorite time of year! It’s a time for great laughs and killer hangovers. My girls juj and Haley bring the heat every year - literally 90 degree weather - for all their friends to enjoy. It’s consistently good laughs great food and glorious memories to last a lifetime" </p>
+            <p class = "slide"> "My friends convinced me to go 2 years ago and I am so glad they did. It's a fairly inexpensive festival with a fun, jam-packed schedule of events. I would choose this over Cochella anyday." </p>
+        </div>
 
     </div>
-    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
   </body>
+
+
+
 </html>

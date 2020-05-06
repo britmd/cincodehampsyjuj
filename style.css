@@ -1,9 +1,9 @@
 header img {
-    height: 80px;
+    height: 60px;
     position: relative;
 }
 header {
-    background-color: #B4EB63;
+    background-color: #40c520;
     position: fixed;
     top: 0;
     left: 0;
@@ -11,7 +11,7 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    border-bottom: 1pt solid #fcf1b7;
+    border-bottom: 3pt solid #fcf1b7;
     z-index:1;
 }
 header * {
@@ -19,7 +19,9 @@ header * {
 
 }
 header li {
-    margin: 20px;
+    margin: 10px;
+    font-size: 20px;
+    text-decoration: none;
 
 }
 header li a {
@@ -28,11 +30,11 @@ header li a {
 
 }
 
-.sticky {
+/*.sticky {
   position: fixed;
   top: 0;
   width: 100%;
-}
+} */
 
 body {
     margin-top: 50px;
@@ -50,8 +52,6 @@ div {
   margin: 0px;
   padding: 5px;
   width: 98%;
-  border-style: solid;
-  border-color: #fcf1b7;
 }
 
 /*.row-full{
@@ -74,7 +74,16 @@ left: 50%;
 }
 
 #home {
+  border-style: solid;
+  border-color: #fcf1b7;
   clear: both
+}
+
+.image2 {
+  float: right;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
 }
 
 .intro {
@@ -82,7 +91,10 @@ left: 50%;
     margin-left: 20px;
     shape-outside: circle(50%);
 }
-
+#about {
+  border-style: solid;
+  border-color: #fcf1b7;
+}
 h2 {
   margin-left: 20px;
 }
@@ -92,15 +104,19 @@ h2 {
   height: 300px;
   width: 300px;
   margin: 10px;
+  border-radius: 50%;
 }
 
 .story {
   margin: 10px;
-  shape-outside: circle(50%);
+  shape-outside: circle(70%);
   font-size: 20px;
 
 }
-
+.schedule {
+  border-style: solid;
+  border-color: #fcf1b7;
+}
 
 h1 {
   font-weight: bold;
@@ -114,7 +130,7 @@ h1 {
   font-size: 25px;
   color: red;
   font-weight: bold;
-  padding: 0px 200px 100px 200px;
+  padding: 0px 200px 25px 200px;
 }
 
 /* .wristbands {
@@ -161,4 +177,9 @@ h1 {
 
   float: left;
   margin: 10px;
+}
+
+#testimonials {
+  border-style: solid;
+  border-color: #fcf1b7;
 }
